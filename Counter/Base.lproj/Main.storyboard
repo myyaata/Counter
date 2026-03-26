@@ -25,7 +25,7 @@
                                     <fontDescription key="titleFontDescription" type="system" pointSize="25"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <action selector="ToZero:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8QM-J4-vm9"/>
+                                    <action selector="toZero:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Px6-Lt-yp5"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QOX-fa-21B">
@@ -37,7 +37,7 @@
                                     <fontDescription key="titleFontDescription" type="system" pointSize="25"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <action selector="IncreaseCounter:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Vdc-X2-usB"/>
+                                    <action selector="increaseCounter:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ne8-G0-52k"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7gc-xr-8pW">
@@ -48,7 +48,7 @@
                                     <fontDescription key="titleFontDescription" type="system" pointSize="25"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <action selector="ReduceCounter:" destination="BYZ-38-t0r" eventType="touchUpInside" id="xJ1-Ki-ez3"/>
+                                    <action selector="reduceCounter:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gzM-OH-kSW"/>
                                 </connections>
                             </button>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="История изменений:" adjustsFontForContentSizeCategory="YES" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="y0g-Q4-Un8">
@@ -71,11 +71,11 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <connections>
-                        <outlet property="CounterLabel" destination="4YV-El-hzv" id="tJD-nc-JGs"/>
-                        <outlet property="HistoryTextView" destination="y0g-Q4-Un8" id="ZX8-Vr-yFS"/>
-                        <outlet property="MinusButton" destination="7gc-xr-8pW" id="Uf3-FH-Dzp"/>
-                        <outlet property="PlusButton" destination="QOX-fa-21B" id="fvi-Ox-eF9"/>
                         <outlet property="ToZeroButton" destination="f6W-Gz-oDI" id="Ka2-Cq-P2U"/>
+                        <outlet property="counterLabel" destination="4YV-El-hzv" id="WTa-Ae-dlE"/>
+                        <outlet property="historyTextView" destination="y0g-Q4-Un8" id="eWz-X1-3M2"/>
+                        <outlet property="minusButton" destination="7gc-xr-8pW" id="sf6-wA-sLV"/>
+                        <outlet property="plusButton" destination="QOX-fa-21B" id="XMp-8w-hfD"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
